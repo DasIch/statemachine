@@ -97,10 +97,9 @@ html_theme = 'minimalism'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-# html_theme_options = {
-    # 'github_fork': 'DasIch/statemachine',
-    # 'is_a_pocoo_project': True, # ?
-# }
+html_theme_options = {
+    'github_fork': 'DasIch/statemachine'
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ['_themes']
