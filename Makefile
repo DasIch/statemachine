@@ -21,4 +21,7 @@ clean-doc:
 clean-files:
 	@find . -iname "*.pyc" -delete
 
-clean: clean-doc clean-files
+clean-test:
+	@rm -r .tox
+
+clean: clean-doc clean-files clean-test
